@@ -31,3 +31,5 @@ jobs:
           git add dynamic_file.py
           git commit -m "Update dynamic variable"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
